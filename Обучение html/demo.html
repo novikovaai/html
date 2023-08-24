@@ -7,13 +7,34 @@
 </head>
 <body>
 	<form action="/test">
-		<input type="text" placeholder="Некий текст">
-		<input type="email" placeholder="E-mail пользователя">
-		<input type="password" placeholder="Пароль пользователя">
-		<input type="date" placeholder="Дата рождения пользователя">
-		<input type="color">
-		<input type="checkbox">
-		<input type="search" placeholder="Ввести поисковой запрос">
+		<input type="hidden" name="hid" id="hid" value="1">
+		<!--file:///C:/test?hid=&sometext=&email=&password=&birthdate=&color=%23000000&search=-->
+		<div>
+			<label for="sometext">Напишите приветствие</label>
+			<input type="text" placeholder="Некий текст" id="sometext" name="sometext">
+		</div>
+		<div>
+			<label for="email">Введите e-mail:</label>
+			<input type="email" placeholder="E-mail пользователя" id="email" name="email">
+		</div>
+		<div>
+			<label for="password">Введите пароль:</label>
+			<input type="password" placeholder="Пароль пользователя" id="password" name="password">
+		</div>
+		<div>
+			<label for="birthdate">Дата рождения:</label>
+			<input type="date" placeholder="Дата рождения пользователя" id="birthdate" name="birthdate">
+		</div>
+		<label for="color">Выберите цвет</label>
+		<input type="color" id="color" name="color">
+		<label for="notrobot">Подтвердите, что вы не робот</label>
+		<input type="checkbox" id="notrobot" name="notrobot">
+		<div>
+			<label for="search">Найти:</label>
+			<input type="search" placeholder="Ввести поисковой запрос" id="search" name="search">
+		</div>
+		<button type="submit">Кнопка</button>
+		<button type="reset">Сбросить</button>
 	</form>
 </body>
 </html>
