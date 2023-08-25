@@ -40,7 +40,16 @@
 	<form action="#" method="get">
 		<div>
 			<label for="query">Введите запрос</label>
-			<input type="text" name="search_query" id="query" placeholder="Запрос...">
+			<input 
+			type="text" 
+			name="search_query" 
+			id="query" 
+			placeholder="*Запрос..." 
+			title="Введите только цифры"
+			minlength="3"
+			maxlength="20"
+			required
+			>
 		</div>
 		<div>
 			<label for="agree">Согласен с обработкой данных</label>
@@ -77,6 +86,7 @@
 			<label for="text">Комментарий</label>
 			<textarea name="text" id="text" rows="10" cols="50" placeholder="Введите текст..."></textarea>
 		</div>
+		<input type="url" name="1" id="1">
 		<button>Искать</button>
 
 	</form>
