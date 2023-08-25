@@ -36,5 +36,38 @@
 		<button type="submit">Кнопка</button>
 		<button type="reset">Сбросить</button>
 	</form>
+	<hr>
+	<form action="#" method="get">
+		<div>
+			<label for="query">Введите запрос</label>
+			<input type="text" name="search_query" id="query" placeholder="Запрос...">
+		</div>
+		<div>
+			<label for="agree">Согласен с обработкой данных</label>
+			<input type="checkbox" name="agree" id="agree">
+		</div>
+		<div>
+			<label for="all">Поиск повсюду</label>
+			<input type="radio" name="search" id="all" value="all">
+		</div>
+		<div>
+			<label for="youtube">Поиск на YouTube</label>
+			<input type="radio" name="search" id="youtube" value="youtube" checked> 
+		</div>
+		<div>
+			<label for="youtubetopic">Тематика</label>
+			<select name="topic" id="topic">
+				<option value="1">Все</option>
+				<optgroup label="Популярные">
+					<option value="2">Животные</option>
+					<option value="3">Разработка</option>
+				</optgroup>
+				<option value="4">Растения</option>
+				
+			</select>
+		</div>	
+		<button>Искать</button>
+
+	</form>
 </body>
 </html>
