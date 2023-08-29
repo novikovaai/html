@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Форма регистрации на сайте site_name">
+	<meta name="keywords" content="регистрация site_name, зарегистрироваться site_name">
+	<title>Форма регистрации</title>
+</head>
+<body>
+	<div>
+		<h1>Регистрация</h1>
+		<h2>Уже есть аккаунт?  <span><a href="#">Войти</a></span></h2>
+		<form action="/register">
+			<input type="text" name="Username" id="Username" placeholder="Мой компания"><!--Опечатка оставлена из задания-->
+			<input type="text" name="First name" id="First name" placeholder="Имя">
+			<input type="text" name="Last name" id="Last name" placeholder="Фамилия">
+			<input type="email" name="E-mail" id="E-mail" placeholder="E-mail">
+			<button>Зарегистрироваться &#8594;</button>
+			<div>
+				<input type="checkbox" name="Terms" id="Terms" required>
+				<label for="Terms">Я прочитал и принимаю  <span><a href="#">Условия использования</a></span></label>
+			</div>			
+		</form>
+	</div>
+</body>
+</html>
