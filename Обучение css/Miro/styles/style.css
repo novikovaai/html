@@ -1,0 +1,49 @@
+#herobutton {
+	background-color: #4262FF;
+	color: white;
+
+}
+
+.link {
+	color: #4262FF;
+	text-decoration: underline;
+}
+
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: 1px;
+	color: #050038;
+}
+
+h2 {
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: 1px;
+	color: #050038;
+}
+
+p {
+	font-size: 18px;
+	line-height: 24px;
+	}
+
+.herotext {
+	color: #050038;
+}
+
+.sectiontext {
+	color: rgba(5, 0, 56, 0.6);
+}
+
+header {
+	background-color: #FFF;
+}
+footer {
+	background-color: #050038;
+}
