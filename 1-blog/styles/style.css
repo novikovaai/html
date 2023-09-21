@@ -1,0 +1,63 @@
+body {
+		background: linear-gradient(#374151, #111827);
+		font-family: 'Open Sans', sans-serif;
+		color: #FFFFFF;
+		font-weight: 400;
+	}
+
+h1 {
+	font-size: 24px;
+	line-height: 38px;
+}	
+
+nav	{
+	font-size: 16px;
+	line-height: 18.75px;
+}
+
+a	{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.V	{
+	background-color: #4B5563;
+	line-height: 22.63px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.myblog {
+	font-size: 18px;
+	line-height: 21.09px;
+}
+
+.date {
+	font-size: 14px;
+	line-height: 16.41px;
+}
+.name {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.job {
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.herotext {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.sectiontext {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+footer p{
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 28px;
+}
