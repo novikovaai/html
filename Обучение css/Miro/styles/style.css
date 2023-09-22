@@ -4,9 +4,21 @@
 
 }
 
+#herobutton:hover {
+	background-color: #12299c;
+}
+
 .link {
 	color: #4262FF;
 	text-decoration: underline;
+}
+
+.link:hover {
+	color: #2c4adf;
+}
+
+.link:active {
+	color: #0a1c75;
 }
 
 body {
@@ -61,3 +73,13 @@ header a{
 	line-height: 20px;
 	color: #050038;
 }
+
+.heroform input:focus {
+	background-color: aqua;
+}
+
+
+ul li:nth-child(3n-1){
+	color: red;
+}
+
