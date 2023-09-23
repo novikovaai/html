@@ -78,8 +78,14 @@ header a{
 	background-color: aqua;
 }
 
-
-ul li:nth-child(3n-1){
-	color: red;
+nav ul {
+	list-style: none;
 }
 
+.sectionlist {
+	list-style-type: none;
+}
+
+.sectionlist li::marker {
+	content: url(../imgs/Frame.svg);
+}
