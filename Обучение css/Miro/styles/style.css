@@ -24,6 +24,7 @@
 body {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: 400;
+	color: blueviolet;
 }
 
 h1 {
@@ -88,4 +89,20 @@ nav ul {
 
 .sectionlist li::marker {
 	content: url(../imgs/Frame.svg);
+}
+
+.experiment {
+	background: red;
+}
+
+.experiment {
+	background: blue;
+}
+
+div {
+	background: bisque;
+}
+
+#exp {
+	background: pink;
 }
