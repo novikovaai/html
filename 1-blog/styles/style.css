@@ -3,16 +3,37 @@ body {
 		font-family: 'Open Sans', sans-serif;
 		color: #FFFFFF;
 		font-weight: 400;
+		margin: 0;
 	}
 
-h1 {
-	font-size: 24px;
-	line-height: 38px;
-}	
 
 nav	{
 	font-size: 16px;
 	line-height: 18.75px;
+	padding: 81px 0 0 180px;
+}
+
+
+header input {
+	background-color: rgba(31, 41, 55, 0.6);
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 18.75px;
+	margin: 71px 180px 60px 0;
+	width: 224px;
+	height: 40px;
+	padding: 9px 0 12px 49px;
+	border-radius: 100px;
+}
+
+/* header input::placeholder {
+	content: url(../imgs/search.png);
+} */
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 0;
+	list-style: none;
 }
 
 a	{
@@ -20,21 +41,43 @@ a	{
 	text-decoration: none;
 }
 
+h1 {
+	font-size: 24px;
+	line-height: 38px;
+	margin: 0 0 30px 0;
+}
+
+footer p {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 28px;
+	padding: 103px 0 77px;
+}
+
 .V	{
 	background-color: #4B5563;
 	line-height: 22.63px;
 	font-weight: 600;
 	font-size: 18px;
+	width: 35px;
+	height: 35px;
+	margin: 0;
+}
+
+.V p {
+	padding: 6px 12px;
 }
 
 .myblog {
 	font-size: 18px;
 	line-height: 21.09px;
+	padding: 0 0 0 0;
 }
 
 .date {
 	font-size: 14px;
 	line-height: 16.41px;
+	margin-bottom: 14px;
 }
 .name {
 	font-size: 16px;
@@ -44,11 +87,13 @@ a	{
 .job {
 	font-size: 14px;
 	line-height: 28px;
+	margin-bottom: 28px;
 }
 
 .herotext {
 	font-size: 20px;
 	line-height: 32px;
+	margin-bottom: 185px;
 }
 
 .sectiontext {
@@ -56,8 +101,6 @@ a	{
 	line-height: 30px;
 }
 
-footer p{
-	color: rgba(255, 255, 255, 1);
-	font-size: 16px;
-	line-height: 28px;
+#sectionimg {
+	margin-bottom: 69px;
 }
