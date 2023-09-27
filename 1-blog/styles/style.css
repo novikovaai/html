@@ -54,7 +54,7 @@ footer p {
 	padding: 103px 0 77px;
 }
 
-.V	{
+.logo-letter {
 	background-color: #4B5563;
 	line-height: 22.63px;
 	font-weight: 600;
@@ -62,11 +62,10 @@ footer p {
 	width: 35px;
 	height: 35px;
 	margin: 0;
+	padding: 6px 12px;
+	box-sizing: border-box;
 }
 
-.V p {
-	padding: 6px 12px;
-}
 
 .myblog {
 	font-size: 18px;
