@@ -1,16 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 		background: linear-gradient(#374151, #111827);
 		font-family: 'Open Sans', sans-serif;
 		color: #FFFFFF;
 		font-weight: 400;
-		margin: 0;
+		margin: 0;		
 	}
 
 
 nav	{
 	font-size: 16px;
 	line-height: 18.75px;
-	padding: 81px 0 0 180px;
+	padding: 81px 0;
 }
 
 
@@ -19,7 +23,7 @@ header input {
 	color: #FFFFFF;
 	font-size: 16px;
 	line-height: 18.75px;
-	margin: 71px 180px 60px 0;
+	margin: 71px 0;
 	width: 224px;
 	height: 40px;
 	padding: 9px 0 12px 49px;
@@ -44,15 +48,21 @@ a	{
 h1 {
 	font-size: 24px;
 	line-height: 38px;
-	margin: 0 0 30px 0;
+	margin: 0 auto 30px;
+	width: 525px;
 }
+
 
 footer p {
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
 	line-height: 28px;
-	padding: 103px 0 77px;
+	padding: 0 0 77px;
+	width: 226px;
+	margin: auto;
 }
+
+
 
 .logo-letter {
 	background-color: #4B5563;
@@ -63,7 +73,6 @@ footer p {
 	height: 35px;
 	margin: 0;
 	padding: 6px 12px;
-	box-sizing: border-box;
 }
 
 
@@ -76,30 +85,40 @@ footer p {
 .date {
 	font-size: 14px;
 	line-height: 16.41px;
-	margin-bottom: 14px;
+	margin: 0 auto 14px;
+	width: 180px;
 }
-.name {
-	font-size: 16px;
+
+.blog_author {
 	line-height: 28px;
+	margin: 0 auto 28px;
+	width: 214px;
+}
+
+.name {
+	font-size: 16px;	
 }
 
 .job {
 	font-size: 14px;
-	line-height: 28px;
-	margin-bottom: 28px;
 }
 
 .herotext {
 	font-size: 20px;
 	line-height: 32px;
-	margin-bottom: 185px;
+	margin: 0 auto 185px;	
+	width: 708px;
+	height: 101px;
 }
 
 .sectiontext {
 	font-size: 16px;
 	line-height: 30px;
+	margin: 0 auto 103px;
+	width: 708px;
 }
 
 .sectionimg {
-	margin-bottom: 69px;
+	margin: 0 auto 69px;
+	width: 896px;
 }
