@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+		background: linear-gradient(#374151, #111827);
+		font-family: 'Open Sans', sans-serif;
+		color: #FFFFFF;
+		font-weight: 400;
+		margin: 0;		
+	}
+
+
+nav	{
+	font-size: 16px;
+	line-height: 18.75px;
+	padding: 81px 0;
+}
+
+
+header input {
+	background-color: rgba(31, 41, 55, 0.6);
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 18.75px;
+	margin: 71px 0;
+	width: 224px;
+	height: 40px;
+	padding: 9px 0 12px 49px;
+	border-radius: 100px;
+}
+
+/* header input::placeholder {
+	content: url(../imgs/search.png);
+} */
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+a	{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 38px;
+	margin: 0 auto 30px;
+	width: 525px;
+}
+
+
+footer p {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 28px;
+	padding: 0 0 77px;
+	width: 226px;
+	margin: auto;
+}
+
+
+
+.logo-letter {
+	background-color: #4B5563;
+	line-height: 22.63px;
+	font-weight: 600;
+	font-size: 18px;
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	padding: 6px 12px;
+}
+
+
+.myblog {
+	font-size: 18px;
+	line-height: 21.09px;
+	padding: 0 0 0 0;
+}
+
+.date {
+	font-size: 14px;
+	line-height: 16.41px;
+	margin: 0 auto 14px;
+	width: 180px;
+}
+
+.blog_author {
+	line-height: 28px;
+	margin: 0 auto 28px;
+	width: 214px;
+}
+
+.name {
+	font-size: 16px;	
+}
+
+.job {
+	font-size: 14px;
+}
+
+.herotext {
+	font-size: 20px;
+	line-height: 32px;
+	margin: 0 auto 185px;	
+	width: 708px;
+	height: 101px;
+}
+
+.sectiontext {
+	font-size: 16px;
+	line-height: 30px;
+	margin: 0 auto 103px;
+	width: 708px;
+}
+
+.sectionimg {
+	margin: 0 auto 69px;
+	width: 896px;
+}
