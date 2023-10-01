@@ -147,5 +147,51 @@ footer a {
 #headerimg {
 	width: 604px;
 	height: 461px;
-	margin-left: 545px;
+	float: left;
+}
+
+.divR {
+	background: red;
+	display: inline;
+}
+
+.divB {
+	background: blue;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.divG {
+	background: green;
+	display: inline;
+}
+
+.spanR {
+	background: red;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.spanB {
+	background: blue;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.spanG {
+	background: green;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
 }
