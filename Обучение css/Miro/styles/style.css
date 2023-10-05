@@ -11,10 +11,12 @@
 	font-size: 18px;
 	line-height: 27px;
 	padding: 10px 20px;
+	transition: background-color 1s, border-radius 2s;
 }
 
 #herobutton:hover {
 	background-color: #12299c;
+	
 }
 
 .link {
@@ -155,6 +157,54 @@ footer a {
 	height: 461px;
 }
 
+.exp div {
+	width: 200px;
+	height: 200px;
+	background-color: #050038;
+	margin: 10px;
+	color: white;
+	font-size: 24px;
+	animation: my-move 2s ease forwards;
+	animation-iteration-count: 5;
+	animation-direction: reverse;
+	animation-delay: 1s;
+}
+
+.exp div:hover {
+	animation-play-state: paused;
+}
+
+
+@keyframes my-move {
+	25% {	
+		transform: translateX(100%);
+	}
+	50% {
+		transform: translateX(100%) translateY(-100%);
+		}
+	75% {
+		transform: translateX(0%) translateY(-100%);
+	}
+	100% {
+		transform: translateX(0%) translateY(0%);
+	}
+}
+
+/* .exp div:nth-child(1) {
+	transform: rotate(45deg);
+}
+
+.exp div:nth-child(2) {
+	transform: translate(-300px);
+}
+
+.exp div:nth-child(3) {
+	
+}
+
+.exp div:nth-child(4) {
+	
+} */
 
 /* .cl1 {
 	background: red;
@@ -220,11 +270,11 @@ footer a {
 	height: 600px;
 } */ 
 
-#hero {
+/* #hero {
 	font-size: 16px;
 }
 
 #herobutton {
 	font-size: 1em;
 	height: 3em;
-}
+} */
