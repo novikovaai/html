@@ -49,7 +49,8 @@ h1 {
 }
 
 h2 {
-	font-size: 48px;
+	/* font-size: 48px; */
+	font-size: 4vmax;
 	line-height: 56px;
 	letter-spacing: 1px;
 	color: #050038;
@@ -158,24 +159,24 @@ footer a {
 }
 
 .exp div {
-	width: 200px;
+	width: clamp(200px, 80%, 600px);
 	height: 200px;
 	background-color: #050038;
 	margin: 10px;
 	color: white;
 	font-size: 24px;
-	animation: my-move 2s ease forwards;
+	/* animation: my-move 2s ease forwards;
 	animation-iteration-count: 5;
 	animation-direction: reverse;
-	animation-delay: 1s;
+	animation-delay: 1s; */
 }
 
-.exp div:hover {
+/* .exp div:hover {
 	animation-play-state: paused;
-}
+} */
 
 
-@keyframes my-move {
+/* @keyframes my-move {
 	25% {	
 		transform: translateX(100%);
 	}
@@ -188,7 +189,7 @@ footer a {
 	100% {
 		transform: translateX(0%) translateY(0%);
 	}
-}
+} */
 
 /* .exp div:nth-child(1) {
 	transform: rotate(45deg);
@@ -277,4 +278,10 @@ footer a {
 #herobutton {
 	font-size: 1em;
 	height: 3em;
+} */
+
+/* @media (min-width: 500px) {
+	h1 {
+		color: red;
+	}
 } */
