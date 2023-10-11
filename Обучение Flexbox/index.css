@@ -14,8 +14,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap; 
-	height: 100vh;
+	/* height: 100vh; */
 	align-items: flex-start;
+	gap: 20px;
 }
 
 .item {
@@ -24,6 +25,7 @@ body {
 	text-align: center;
 	padding: 10px;
 	/* width: calc(100% / 3); */
+	flex: 0 1 calc(100% / 3 - 20px * 2 / 3);
 }
 
  /* .item4 {
@@ -34,6 +36,6 @@ body {
 	font-size: 80px;
 } */
 
-.item9 {
-	align-self: center;
-} 
+ /* .item9 {
+	flex: 2;
+}   */
