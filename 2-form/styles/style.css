@@ -29,18 +29,25 @@ input {
 	background-color: #F5F5F5;
 	color: #999999;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 16px; 
 	font-style: italic;
+	min-width: 10px;
+	height: 44px;
+	border: none;
+	padding: 10px;
 }
 button {
 	background-color: #089FE0;
 	color: #FFFFFF;
 	font-weight: 400;
 	font-size: 18px;
+	height: 44px;
 }
 a {
 	color: #089FE0;
 }
+
+
 .register_form {
 	width: 582px;
 	height: 573px;
@@ -62,7 +69,7 @@ a {
 	flex-wrap: wrap;
 	margin: 47px 0 0 0;
 	flex-direction: row;
-	
+	row-gap: 22px;
 }
 
 .enter {
@@ -74,15 +81,13 @@ a {
 }
 
 .first_last_name {
-	display: flex;
+	display: flex; 
 	column-gap: 46px;
-	border: 1px solid #F5F5F5;
+	flex-wrap: wrap;
+	/* border: 1px solid #F5F5F5; */
+	background-color: #F5F5F5;
 }
 
-.first_name {
-	flex: 0 1 calc(100% / 2 - 46px);
-}
-
-.last_name {
-	flex: 0 1 calc(100% / 2 - 46px);
+.item_name {
+	flex: 0 1 calc(100% / 2 - 46px * 1 / 2);
 }
