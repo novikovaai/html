@@ -3,7 +3,9 @@
 }
 
 body {
-	background-color: #F39494;
+	background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
+		linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+		#F39494;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -33,8 +35,16 @@ input {
 	font-style: italic;
 	min-width: 10px;
 	height: 44px;
-	border: none;
+	border: 1px solid #F5F5F5;
 	padding: 10px;
+	border-radius: 5px;
+}
+
+input:focus {
+	background-color: #FFFFFF;
+	font-style: normal;
+	color: #333333;
+	font-weight: 600;
 }
 button {
 	background-color: #089FE0;
@@ -42,6 +52,8 @@ button {
 	font-weight: 400;
 	font-size: 18px;
 	height: 44px;
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
 }
 a {
 	color: #089FE0;
@@ -90,4 +102,21 @@ a {
 
 .item_name {
 	flex: 0 1 calc(100% / 2 - 46px * 1 / 2);
+}
+
+.terms {
+	position: relative;
+}
+
+.terms_text {
+	font-size: 14px;
+	color: #666666;
+	position: absolute;
+	left: 19px;
+}
+
+.terms_checkbox {
+	width: 15px;
+	height: 16px;
+	margin: 0;
 }
