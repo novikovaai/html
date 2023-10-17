@@ -6,7 +6,11 @@ body {
 	background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
 		linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
 		#F39494;
+	/* background: linear-gradient(0deg, #F39494, #F39494),
+			linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
+			linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%); */
 	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -43,7 +47,7 @@ input {
 input:focus {
 	background-color: #FFFFFF;
 	font-style: normal;
-	color: #333333;
+	color: rgba(51, 51, 51, 1);
 	font-weight: 600;
 }
 button {
@@ -61,7 +65,7 @@ a {
 
 
 .register_form {
-	width: 582px;
+	max-width: 582px;
 	height: 573px;
 	position: absolute;
 	top: 0;
