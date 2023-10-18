@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	height: 100%;
+}
 
 body {
 	background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
@@ -11,6 +14,7 @@ body {
 			linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%); */
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto', sans-serif;
+	height: 100%;
 }
 
 h1 {
@@ -58,6 +62,12 @@ button {
 	height: 44px;
 	border: 3px solid #FFFFFF;
 	border-radius: 5px;
+	width: 394px;
+}
+
+button:hover {
+	background-color: #0c95cf;
+	cursor: pointer;
 }
 a {
 	color: #089FE0;
@@ -86,30 +96,33 @@ a {
 	margin: 47px 0 0 0;
 	flex-direction: row;
 	row-gap: 22px;
+	position: relative;
+	padding: 0 95px 0 93px;
 }
 
 .enter {
 	margin-left: 6px;
 }
 
-.item {
-	flex-basis: 394px;
-}
+ .item {
+	flex: 0 1 100%;
+} 
 
 .first_last_name {
 	display: flex; 
-	column-gap: 46px;
 	flex-wrap: wrap;
+	gap: 1px;
 	/* border: 1px solid #F5F5F5; */
-	background-color: #F5F5F5;
+	background-color: #FFFFFF;
 }
 
-.item_name {
-	flex: 0 1 calc(100% / 2 - 46px * 1 / 2);
-}
+ .item_name {
+	flex: 0 1 calc(100% / 2 - 1px * 1 / 2);
+} 
 
 .terms {
 	position: relative;
+	
 }
 
 .terms_text {
@@ -123,4 +136,19 @@ a {
 	width: 15px;
 	height: 16px;
 	margin: 0;
+}
+
+.register_button_arrow {
+	position: relative;
+	
+}
+
+.arrow {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: auto;
+	bottom: 0;
+	right: 24px;
+	width: 22px;
 }

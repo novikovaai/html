@@ -10,16 +10,20 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Source Sans 3', sans-serif;
-	max-width: 1440px;
 	}
 
 header {
-	display: flex;
-	gap: 77px;
-	max-width: 1440px;
 	text-align: center;
 	padding: 72px 180px;
+	display: flex;
 	align-items: baseline;
+	gap: 77px;
+	justify-content: center;
+}
+
+.nav_search{
+	display: flex;
+	gap: 346px;
 }
 
 nav	{
@@ -39,7 +43,10 @@ header input {
 	height: 40px;
 	padding: 9px 0 12px 49px;
 	border-radius: 100px;
+	border: none;
 }
+
+
 
 .field {
 	margin-left: auto;
@@ -48,9 +55,11 @@ header input {
 
 .field img {
 	position: absolute;
-	top: 10px;
-	right: 17px;
+	margin: auto;
+	top: 0;
 	left: 18px;
+	bottom: 0;
+	right: auto;
 	width: 14px;
 	height: 14px;
 }
@@ -87,7 +96,6 @@ h1 {
 }
 
 footer {
-	max-width: 1440px;
 	text-align: center;
 }
 
@@ -133,6 +141,7 @@ footer p {
 	color: rgba(255, 255, 255, 0.6);
 	align-items: center;
 	font-family: 'Roboto', sans-serif;
+	justify-content: center;
 }
 
 .circle {
@@ -149,6 +158,7 @@ footer p {
 	flex-direction: row;
 	gap: 16px;
 	align-items: center;
+	justify-content: center;
 }
 
 .name_and_job {
@@ -166,7 +176,7 @@ footer p {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.herotext {
+.hero_text {
 	font-size: 20px;
 	line-height: 32px;
 	margin: 0 auto 185px;	
@@ -174,7 +184,8 @@ footer p {
 	height: 101px;
 }
 
-.sectiontext {
+
+.section_text {
 	font-size: 16px;
 	line-height: 30px;
 	margin: 0 auto 103px;
