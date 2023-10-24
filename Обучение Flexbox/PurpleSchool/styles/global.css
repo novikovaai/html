@@ -1,0 +1,39 @@
+body {
+	background-color: #1E1F29;
+	--color-primary: #6C38CC;
+}
+
+.section-header {
+
+}
+
+.section-header__top {
+
+}
+
+.section-header__h2 {
+
+}
+
+.button {
+		padding: 16px 12px;
+	font-size: 18px;
+	font-weight: 400px;
+	border-radius: 10px;
+	background: none;
+	border: none;
+}
+
+.button_primary {
+	background-color: var(--color-primary, red);
+	color: white;
+}
+
+.button_ghost {
+	border: 1px solid #4D5064;
+	color: #FAFAFA;
+}
+
+.hero__button {
+	margin-top: 32px;
+}
