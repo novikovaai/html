@@ -1,39 +1,28 @@
-body {
-	background-color: #1E1F29;
+:root {
 	--color-primary: #6C38CC;
+	--color-bg: #16171D;
+	--color-bg-medium: #1E1F29;
+	--color-bg-light: #2E2D3D;
+	--color-text: #fafafa;
+	--color-link-hover: #AFB2BF;
+	--color-stroke: rgba(77, 80, 100, 1);
+	--border-8: 8px;
 }
 
-.section-header {
-
+html {
+	
 }
 
-.section-header__top {
-
+body {
+	background-color: var(--color-bg);
+	font-family: Fira Sans;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
 }
 
-.section-header__h2 {
 
-}
-
-.button {
-		padding: 16px 12px;
-	font-size: 18px;
-	font-weight: 400px;
-	border-radius: 10px;
-	background: none;
-	border: none;
-}
-
-.button_primary {
-	background-color: var(--color-primary, red);
-	color: white;
-}
-
-.button_ghost {
-	border: 1px solid #4D5064;
-	color: #FAFAFA;
-}
-
-.hero__button {
-	margin-top: 32px;
+a {
+	text-decoration: none;
+	cursor: pointer;
 }
