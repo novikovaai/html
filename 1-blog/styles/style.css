@@ -176,24 +176,29 @@ footer p {
 	color: rgba(255, 255, 255, 0.6);
 }
 
+.blog_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 69px;
+	margin-bottom: 103px;
+}
+
 .hero_text {
 	font-size: 20px;
 	line-height: 32px;
-	margin: 0 auto 185px;	
-	width: 708px;
-	height: 101px;
+	max-width: 708px;	
 }
 
 
 .section_text {
 	font-size: 16px;
 	line-height: 30px;
-	margin: 0 auto 103px;
-	width: 708px;
+	max-width: 708px;
 }
 
 .sectionimg {
-	margin: 0 auto 69px;
 	max-width: 896px;
 	display: block;
 }
