@@ -40,9 +40,20 @@
 	.header__mobile-menu-button {
 		display: block;
 	}
+}
+
+@media (max-width: 640px) {
+	.header__wrapper {
+			padding: 30px 24px;
+		}
+}
+
+
+@media (max-width: 480px) {
 	.header__logo {
 		max-width: 174px;
 	}
+
 }
 
 
@@ -52,6 +63,7 @@
 	list-style: none;
 	display: flex;
 	gap: 40px;
+	margin: 0;
 }
 
 .menu__item {
@@ -61,8 +73,6 @@
 .menu__item a {
 	font-size: 18px;
 	line-height: 22px;
-	letter-spacing: 0em;
-	text-align: left;
 	color: var(--color-text);
 	
 }

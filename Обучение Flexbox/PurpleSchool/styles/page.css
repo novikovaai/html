@@ -4,12 +4,14 @@
 	align-items: center;
 	max-width: var(--layout-width);
 	margin: 0 auto;
+	padding: 40px 24px;
 }
 
 .hero__left {
 	display: flex;
 	flex-direction: column;
 	gap: 32px;
+	flex-wrap: wrap;
 }
 
 .hero__buttons {
@@ -21,7 +23,6 @@
 	font-size: 54px;
 	font-weight: 700;
 	color: var(--color-text);
-	width: 544px;
 	margin: 0;
 }
 
@@ -32,3 +33,36 @@
 		-webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 1200px) {
+	.hero {
+		flex-direction: column;
+	}
+	.hero__buttons {
+		justify-content: center;
+
+	}
+	.hero__h1 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 640px) {
+	.hero__h1 {
+		font-size: 30px;
+		line-height: 120%;
+	}
+	.hero__right {
+		width: 100%;
+	}
+
+	.hero {
+		padding: 0px 24px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.hero__buttons {
+		gap: 16px;
+	}
+}
