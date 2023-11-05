@@ -9,6 +9,8 @@
 	--color-button-active-hover: #e0e0e0;
 	--color-bg-cta: #1ABC9C;
 	--color-bg-price: #FFC736;
+	--color-line: rgba(78, 93, 124, 0.08);
+	--color-line-active: rgba(255, 255, 255, 0.16);
 
 	--border-47: 47px;
 	--border-8: 8px;
@@ -35,12 +37,16 @@ a {
 	cursor: pointer;
 }
 
+p {
+	margin: 0;
+}
+
 h1 {
 	color: var(--color-header);
 	font-size: 48px;
 	font-weight: 600;
 	line-height: 120%;
-	margin: 80px 0 24px 0;
+	margin: 80px 24px 24px;
 	text-align: center;
 }
 
@@ -49,12 +55,13 @@ h2 {
 	font-size: 32px;
 	font-weight: 800;
 	line-height: 120%;
-	margin-bottom: 16px;
+	margin: 0 0 16px 0;
+
 }
 
 .paragraph {
 	text-align: center;
-	margin-bottom: 24px;
+	margin: 0 24px 24px;
 }
 
 .p-ghost {
@@ -71,27 +78,18 @@ h2 {
 	grid-template-columns: repeat(3, 369px);
 	gap: 24px;
 	justify-content: center;
+	margin: 0 24px;
 }
 
 .tarifs__tarif {
 	box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.16);
 	border-radius: var(--border-8);
 	display: grid;
-	grid-template-rows: repeat(3, auto);
-	height: 597px;
+	grid-template-rows: repeat(2, 1fr) auto;
+	gap: 32px;
+	padding: 48px 40px;
 }
 
-.tarif-first {
-	padding: 93px 40px 48px 40px;
-}
-
-.tarif-next{
-	padding: 52px 40px 48px 40px;
-}
-
-/* .tarifs__paragraph {
-	margin-bottom: 50px;
-} */
 
 .tarifs__profit {
 	color: var(--color-text-button);
@@ -101,7 +99,38 @@ h2 {
 	font-weight: 800;
 	line-height: 140%;
 	border-radius: var(--border-8);
+	
+}
+
+.tarifs__profit-wrapper {
 	margin-bottom: 20px;
+}
+
+.tarifs__header-first {
+	margin-top: 45px;
+}
+
+@media (max-width: 1280px) {
+	.tarifs {
+		grid-template-columns: repeat(3, 328px);
+	}
+	
+	.tarifs__tarif {
+		padding: 48px 24px;
+	}
+}
+
+@media (max-width: 1040px) {
+	.tarifs {
+		grid-template-columns: repeat(auto-fit, 369px);
+	}
+		
+}
+
+@media (max-width: 825px) {
+	.tarifs__header-first {
+			margin-top: 0;
+		}
 }
 
 /* prices */
@@ -111,8 +140,6 @@ h2 {
 	grid-template-columns: repeat(2, auto);
 	grid-template-rows: repeat(3, auto);
 	align-items: start;
-	row-gap: 33px;
-	margin-bottom: 40px;
 }
 
 .prices__item {
@@ -120,6 +147,8 @@ h2 {
 	font-size: 17px;
 	font-weight: 500;
 	line-height: 120%;
+	padding-bottom: 16px;
+	border-bottom: 1px solid var(--color-line);
 }
 
 .prices__extra {
@@ -129,12 +158,18 @@ h2 {
 	border-radius: var(--border-8);
 }
 
+.prices__item_price {
+	padding-left: 16px;
+}
+
+
+
 /* button */
 
 .button {
 	color: var(--color-text-button);
 	background-color: var(--color-button);
-	padding: 12px 63.5px;
+	padding: 12px 63px;
 	border-radius: var(--border-47);
 	font-size: 17px;
 	font-weight: 800;
@@ -144,6 +179,13 @@ h2 {
 
 .button:hover {
 	background-color: var(--color-button-hover);
+}
+
+@media (max-width: 1280px) {
+	.button {
+		padding: 12px 50px;
+	}
+
 }
 
 /* tarif-active */
@@ -163,6 +205,7 @@ h2 {
 
 .tarif-active__price {
 	color: var(--color-text-button);
+	border-bottom: 1px solid var(--color-line-active);
 }
 
 .tarif-active__button {
@@ -173,3 +216,15 @@ h2 {
 .tarif-active__button:hover {
 	background-color: var(--color-button-active-hover)
 }
+
+
+/* wrapper */
+
+.button-wrapper {
+	align-self: self-end;
+}
+
+.tarif-wrapper {
+	align-self: self-start;
+}
+
