@@ -1,0 +1,32 @@
+.header {
+	background-color: var(--color-primary-blue);
+}
+
+.header-wrapper {
+	padding: 40px 24px;
+	margin: 0 auto;
+	max-width: var(--layout-width);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Menu */
+
+.menu {
+	list-style: none;
+	display: flex;
+	gap: 32px;
+	margin: 0;
+}
+
+.menu__item a {
+	color: var(--color-primary-white);
+}
+
+
+
+
+
+
+
