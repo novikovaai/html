@@ -248,8 +248,54 @@
 	
 }
 
+.card_light {
+	background-color: var(--color-bg-light);
+}
+
 .card_32 {
 	padding: 32px;
+}
+
+.card_48x24 {
+	padding: 48px 24px;
+	margin-bottom: 70px;
+}
+
+.card_24x32 {
+	padding: 24px 32px;
+	margin-bottom: 70px;
+}
+
+.card__top {
+	font-size: 46px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.card__bottom {
+	color: var(--color-text);
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+
+@media (max-width: 640px) {
+	.card_48x24 {
+		padding: 16px 20px;
+		margin-bottom: 16px;
+	}
+	.card__top {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.card__bottom {
+		font-size: 16px;
+	}
+	.card_24x32 {
+		padding: 24px 47px;
+		margin-bottom: 16px;
+	}
 }
 
 /* post__wrapper */
@@ -350,49 +396,35 @@
 
 /* Benefit */
 
-.benefit {
+/* .benefit {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 70px;
 	margin-bottom: 70px;
-}
+} */
 
-.benefit__item {
+/* .benefit__item {
 	padding: 48px 24px;
 	text-align: center;
 	background-color: var(--color-bg-light);
-}
+} */
 
-.benefit__top {	
-	font-size: 46px;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 16px;
-}
 
-.benefit__bottom {
-	color: var(--color-text);
-	font-size: 18px;
-	font-weight: 400;
-	text-align: center;
-}
 
 /* rating */
 
-.rating {
+/* .rating {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 70px;
-}
+} */
 
-.rating__item {
-	padding: 32px 24px;
-	text-align: center;
-	background-color: var(--color-bg-light);
+.rating {
 	display: grid;
 	grid-template-areas: 
 	'rate platform'
 	'rate stars';
+	gap: 8px 24px;
 }
 
 .rating__rate {
@@ -401,7 +433,8 @@
 	font-weight: 400;
 	line-height: 65px;
 	grid-area: rate;
-	align-self: flex-start;
+	align-self: flex-end;
+	text-align: right;
 }
 
 .rating__platform {
