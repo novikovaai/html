@@ -12,10 +12,14 @@
 	--color-line: rgba(78, 93, 124, 0.08);
 	--color-line-active: rgba(255, 255, 255, 0.16);
 
+	--gradient: linear-gradient(173deg, #357EFE 50% 65%, #FFFFFF 50%);
+
 	--border-47: 47px;
 	--border-8: 8px;
+	--border-line: 1px solid var(--color-line);
 
 	--layout-width: 1400px;
+	--margin-bottom: 80px;
 }
 
 * {
@@ -42,14 +46,7 @@ p {
 	margin: 0;
 }
 
-h1 {
-	color: var(--color-header);
-	font-size: 48px;
-	font-weight: 600;
-	line-height: 120%;
-	margin: 80px 24px 24px;
-	text-align: center;
-}
+/* margin: 80px 24px 24px; */
 
 h2 {
 	color: var(--color-header);

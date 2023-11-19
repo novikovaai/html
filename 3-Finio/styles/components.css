@@ -1,3 +1,41 @@
+/* hero */
+
+.hero__headling {
+	color: var(--color-primary-white);
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 120%;
+}
+
+.hero__button {
+	font-size: 17px;
+	font-weight: 800;
+	line-height: 140%;
+	padding: 12px 32px;
+}
+
+.hero__left {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.hero__right img {
+	margin-right: -102px;
+	max-width: 1039px;
+}
+
+.hero__logos {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 22px;
+	margin-top: 40px;
+}
+
+
+
 /* tarifs */
 
 .tarifs {
@@ -94,11 +132,18 @@
 /* button */
 
 .button {	
-	padding: 12px 63px;
 	border-radius: var(--border-47);
 	font-size: 17px;
 	font-weight: 800;
-	line-height: 140%
+	line-height: 140%;
+}
+
+.button_big {
+	padding: 12px 63px;
+}
+
+.button_small {
+	padding: 12px 32px;
 }
 
 .button_blue {
@@ -133,7 +178,7 @@
 	box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.32);
 }
 
-.tarif-active__h2 {
+.tarif-active__h3 {
 	color: var(--color-primary-white);
 }
 
@@ -151,7 +196,7 @@
 }
 
 
-/* wrapper */
+/* wrappers */
 
 .button-wrapper {
 	align-self: self-end;
@@ -159,4 +204,32 @@
 
 .tarif-wrapper {
 	align-self: self-start;
+}
+
+.hero-wrapper {
+	display: flex;
+	margin: 0 auto var(--margin-bottom);
+	padding: 0 24px;
+}
+
+.benefit-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 64px;
+	margin: 0 auto 63px;
+	justify-content: center;
+	padding-bottom: var(--margin-bottom);
+	border-bottom: var(--border-line);
+}
+
+/* benefit */
+
+.benefit__item {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 120%;
+	color: var(--color-header);
 }

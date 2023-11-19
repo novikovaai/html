@@ -1,3 +1,18 @@
+.section_white {
+	background-color: var(--color-primary-white);
+}
+
+.section_wide {
+	max-width: var(--layout-width);
+}
+
+.section_gradient {
+	background: var(--gradient);
+}
+
+
+
+
 .paragraph {
 	text-align: center;
 	margin: 0 24px 24px;
@@ -9,3 +24,4 @@
 	font-weight: 500;
 	line-height: 140%;
 }
+
