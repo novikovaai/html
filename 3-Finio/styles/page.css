@@ -1,27 +1,36 @@
+
+
 .section_white {
 	background-color: var(--color-primary-white);
 }
 
-.section_wide {
-	max-width: var(--layout-width);
-}
-
 .section_gradient {
-	background: var(--gradient);
+	/* background: var(--gradient); */
+	transform: skewY(-3deg);
+	height: 200px;
+	margin-top: -300px;
+}
+
+.section_blue {
+	background-color: var(--color-primary-blue);
 }
 
 
 
+.paragraph_small {
+	font-size: 17px;
+}
 
-.paragraph {
-	text-align: center;
-	margin: 0 24px 24px;
+.paragraph_big {
+	font-size: 18px;
 }
 
 .p-ghost {
-	color: var(--color-text-ghost);
-	font-size: 17px;
+	color: var(--color-text-ghost);	
 	font-weight: 500;
 	line-height: 140%;
 }
+
+
+
 
