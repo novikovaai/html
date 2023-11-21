@@ -1,9 +1,11 @@
 * {
 	box-sizing: border-box;
 }
+
 html {
 	height: 100%;
 }
+
 
 body {
 	background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
@@ -73,9 +75,9 @@ a {
 	color: #089FE0;
 }
 
-
 .register_form {
 	max-width: 582px;
+
 	height: 573px;
 	position: absolute;
 	top: 0;
@@ -95,9 +97,11 @@ a {
 	flex-wrap: wrap;
 	margin: 47px 0 0 0;
 	flex-direction: row;
+
 	row-gap: 22px;
 	position: relative;
 	padding: 0 95px 0 93px;
+
 }
 
 .enter {
