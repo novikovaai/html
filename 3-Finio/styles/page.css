@@ -6,14 +6,17 @@
 
 .section_gradient {
 	/* background: var(--gradient); */
-	transform: skewY(-3deg);
-	height: 200px;
-	margin-top: -300px;
+	transform: skewY(-7deg);
+	height: 500px;
+	margin-top: -250px;
+	position: relative;
 }
 
 .section_blue {
 	background-color: var(--color-primary-blue);
 }
+
+
 
 
 

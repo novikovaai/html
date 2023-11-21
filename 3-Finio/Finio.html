@@ -22,7 +22,7 @@
 	<header class="header">
 		<div class="header-wrapper">
 			<img src="./imgs/finio-logo.png" alt="Логотип Finio">
-			<nav>
+			<nav class="header__menu">
 				<ul class="menu">
 					<li class="menu__item"><a href="#">Возможности</a></li>
 					<li class="menu__item"><a href="#">Тарифы</a></li>
@@ -30,7 +30,10 @@
 					<li class="menu__item"><a href="#">Поддержка клиентов</a></li>
 				</ul>
 			</nav>
-			<a href="#" class="button button_small button_white">Личный кабинет</a>
+			<a href="#" class="header__lk button button_small button_white">Личный кабинет</a>
+			<button class="header__mobile-menu-button">
+				<img src="./imgs/menu-hidden.svg" alt="Мобильное меню">
+			</button>
 		</div>		
 	</header>
 	<main>
@@ -38,21 +41,22 @@
 			<div class="hero-wrapper">
 				<div class="hero__left">
 					<h1 class="hero__headline">Простой финансовый учёт для продавцов на маркетплейсах</h1>
-					<div><a href="#" class="button button_small button_white ">Попробовать 14 дней бесплатно</a></div>
-									<div class="hero__logos">
-										<img src="./imgs/wildberries-logo.png" alt="Логотип Wildberries">
-										<img src="./imgs/ozon-logo.png" alt="Логотип Ozon">
-										<img src="./imgs/yamarket-logo.png" alt="Логотип Yandex Market">
-										<img src="./imgs/aliexpress-logo.png" alt="Логотип Aliexpress">
-									</div>
-								</div>
-								<div class="hero__right">
-									<img src="./imgs/finio-hero.png" alt="Интерфейс Finio">
-								</div>
-							
-			</div>
-			<div class="section_gradient section_white"></div>
+					<div class="hero__button">
+						<a href="#" class="button button_small button_white ">Попробовать 14 дней бесплатно</a>
+					</div>
+					<div class="hero__logos">
+						<img src="./imgs/wildberries-logo.png" alt="Логотип Wildberries">
+						<img src="./imgs/ozon-logo.png" alt="Логотип Ozon">
+						<img src="./imgs/yamarket-logo.png" alt="Логотип Yandex Market">
+						<img src="./imgs/aliexpress-logo.png" alt="Логотип Aliexpress">
+					</div>
+				</div>
+				<div class="hero__right">
+					<img src="./imgs/finio-hero.png" alt="Интерфейс Finio">
+				</div>					
+			</div>			
 		</section>
+		<section><div class="section_white section_gradient"></div></section>
 		<section class="benefit section_white">
 			<div class="benefit-wrapper">
 				<div class="benefit__item"><img src="./imgs/profit-icon.svg" alt="Иконка рейтинга">Анализ прибыли по товарам и брендам</div>
@@ -92,10 +96,8 @@
 		<section class="description section_white">
 			<div class="description-wrapper description_reverse-last">
 				<div class="description__sidetext">
-					<h2 class="description__h2">Отчёты о прибыли и убытках всегда под рукой</h2>
-					<p class="description__text p-ghost">Получите полную информацию о состоянии вашего бизнеса, включающую все
-						необходимые показатели для принятия правильных
-						решений</p>
+					<h2 class="description__h2">Сокращайте лишние расходы</h2>
+					<p class="description__text p-ghost">Анализируйте расходы, убирать ненужные издержки и находите возможности повышать прибыльность бизнеса</p>
 				</div>
 				<div class="description__img">
 					<img src="./imgs/finio-popup.png" alt="Всплывающее окно с увеличенными цифрами" class="description__popup">
