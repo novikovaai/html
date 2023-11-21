@@ -2,9 +2,21 @@
 	box-sizing: border-box;
 }
 
+html {
+	height: 100%;
+}
+
+
 body {
-	background-color: #F39494;
+	background: linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
+		linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+		#F39494;
+	/* background: linear-gradient(0deg, #F39494, #F39494),
+			linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
+			linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%); */
 	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
 }
 
 h1 {
@@ -29,20 +41,43 @@ input {
 	background-color: #F5F5F5;
 	color: #999999;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 16px; 
 	font-style: italic;
+	min-width: 10px;
+	height: 44px;
+	border: 1px solid #F5F5F5;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+input:focus {
+	background-color: #FFFFFF;
+	font-style: normal;
+	color: rgba(51, 51, 51, 1);
+	font-weight: 600;
 }
 button {
 	background-color: #089FE0;
 	color: #FFFFFF;
 	font-weight: 400;
 	font-size: 18px;
+	height: 44px;
+	border: 3px solid #FFFFFF;
+	border-radius: 5px;
+	width: 394px;
+}
+
+button:hover {
+	background-color: #0c95cf;
+	cursor: pointer;
 }
 a {
 	color: #089FE0;
 }
+
 .register_form {
-	width: 582px;
+	max-width: 582px;
+
 	height: 573px;
 	position: absolute;
 	top: 0;
@@ -62,27 +97,62 @@ a {
 	flex-wrap: wrap;
 	margin: 47px 0 0 0;
 	flex-direction: row;
-	
+
+	row-gap: 22px;
+	position: relative;
+	padding: 0 95px 0 93px;
+
 }
 
 .enter {
 	margin-left: 6px;
 }
 
-.item {
-	flex-basis: 394px;
-}
+ .item {
+	flex: 0 1 100%;
+} 
 
 .first_last_name {
-	display: flex;
-	column-gap: 46px;
-	border: 1px solid #F5F5F5;
+	display: flex; 
+	flex-wrap: wrap;
+	gap: 1px;
+	/* border: 1px solid #F5F5F5; */
+	background-color: #FFFFFF;
 }
 
-.first_name {
-	flex: 0 1 calc(100% / 2 - 46px);
+ .item_name {
+	flex: 0 1 calc(100% / 2 - 1px * 1 / 2);
+} 
+
+.terms {
+	position: relative;
+	
 }
 
-.last_name {
-	flex: 0 1 calc(100% / 2 - 46px);
+.terms_text {
+	font-size: 14px;
+	color: #666666;
+	position: absolute;
+	left: 19px;
+}
+
+.terms_checkbox {
+	width: 15px;
+	height: 16px;
+	margin: 0;
+}
+
+.register_button_arrow {
+	position: relative;
+	
+}
+
+.arrow {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: auto;
+	bottom: 0;
+	right: 24px;
+	width: 22px;
 }
