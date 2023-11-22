@@ -1,7 +1,12 @@
-
+/* section */
 
 .section_white {
 	background-color: var(--color-primary-white);
+}
+
+
+.section_blue {
+	background-color: var(--color-primary-blue);
 }
 
 .section_gradient {
@@ -12,27 +17,53 @@
 	position: relative;
 }
 
-.section_blue {
-	background-color: var(--color-primary-blue);
+.section__h2 {	
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 120%;
+	text-align: center;
+	margin: 0 24px 24px;
+}
+
+.section_white__h2 {
+	color: var(--color-header);
+}
+
+.section_blue__h2 {
+	color: var(--color-primary-white);
+}
+
+.section__paragraph {
+	text-align: center;	
+	margin: 0 0 40px 0;
 }
 
 
 
+/* paragraph */
 
-
-.paragraph_small {
-	font-size: 17px;
+.paragraph {
+	font-weight: 500;
+	line-height: 140%;
 }
 
 .paragraph_big {
 	font-size: 18px;
 }
 
-.p-ghost {
-	color: var(--color-text-ghost);	
-	font-weight: 500;
-	line-height: 140%;
+.paragraph_small {
+	font-size: 17px;
 }
+
+.paragraph_ghost {
+	color: var(--color-text-ghost);	
+	}
+
+.paragraph_white-ghost {
+	color: var(--color-text-ghost-white);
+}
+
+
 
 
 

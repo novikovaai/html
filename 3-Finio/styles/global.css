@@ -2,7 +2,8 @@
 	--color-header: #000000;
 	--color-text: #4E5D7C;
 	--color-text-ghost: rgba(78, 93, 124, 0.5);
-	--color-text-ghost-active: rgba(255, 255, 255, 0.6);
+	--color-text-ghost-white: rgba(255, 255, 255, 0.8);
+	--color-text-tarif-active: rgba(255, 255, 255, 0.6);	
 	--color-primary-blue: #357EFE;
 	--color-button-hover: #4f79c2;
 	--color-primary-white: #FFFFFF;
@@ -18,7 +19,7 @@
 	--border-8: 8px;
 	--border-line: 1px solid var(--color-line);
 
-	--layout-width: 1400px;
+	--layout-width: 1392px;
 	--margin-bottom: 80px;
 	--margin-bottom-mobile: 48px;
 }
