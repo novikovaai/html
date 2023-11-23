@@ -48,6 +48,10 @@ p {
 	margin: 0;
 }
 
+h1, h2, h3 {
+	margin: 0;
+}
+
 /* margin: 80px 24px 24px; */
 
 h3 {
