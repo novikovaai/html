@@ -3,7 +3,9 @@
 	--color-text: #4E5D7C;
 	--color-text-ghost: rgba(78, 93, 124, 0.5);
 	--color-text-ghost-white: rgba(255, 255, 255, 0.8);
-	--color-text-tarif-active: rgba(255, 255, 255, 0.6);	
+	--color-text-tarif-active: rgba(255, 255, 255, 0.6);
+	--color-text-footer: rgba(255, 255, 255, 0.7);
+	--color-text-footer-menu: rgba(255, 255, 255, 0.5);
 	--color-primary-blue: #357EFE;
 	--color-button-hover: #4f79c2;
 	--color-primary-white: #FFFFFF;
@@ -11,13 +13,18 @@
 	--color-bg-cta: #1ABC9C;
 	--color-bg-price: #FFC736;
 	--color-line: rgba(78, 93, 124, 0.08);
+	--color-line-footer: rgba(255, 255, 255, 0.08);
 	--color-line-active: rgba(255, 255, 255, 0.16);
+	--color-footer: #1A1D25;
+	
 
 	--gradient: linear-gradient(173deg, #357EFE 50% 65%, #FFFFFF 50%);
 
 	--border-47: 47px;
 	--border-8: 8px;
+	--border-16: 16px;
 	--border-line: 1px solid var(--color-line);
+	--border-line-footer: 1px solid var(--color-line-footer);
 
 	--layout-width: 1392px;
 	--margin-bottom: 80px;
@@ -39,7 +46,7 @@ body {
 
 }
 
-a {
+a, a:visited, a:hover, a:active {
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -52,7 +59,6 @@ h1, h2, h3 {
 	margin: 0;
 }
 
-/* margin: 80px 24px 24px; */
 
 h3 {
 	color: var(--color-header);

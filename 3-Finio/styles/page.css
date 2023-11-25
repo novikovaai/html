@@ -154,15 +154,18 @@
 	gap: 74px;
 	margin: 0 auto var(--margin-bottom);
 	padding: 0 24px;
+	border-radius: var(--border-16);
 }
 
 .review-wrapper {
 	max-width: 1156px;
+	max-height: 438px;
+	overflow: hidden;
 	display: flex;
-	gap: 24px;
+	justify-content: space-between;
 	position: relative;
 	margin: 40px auto var(--margin-bottom);
-	padding: 0 0 0 104px;
+	border-radius: var(--border-16);
 }
 
 
@@ -186,17 +189,12 @@
 		gap: 32px;
 		align-items: center;
 	}
-
 }
 
 
 @media (max-width: 960px) {
 
-	/* .hero-wrapper {
-		padding-left: 0;
-		} */
-
-	.capability-wrapper {
+		.capability-wrapper {
 		grid-template-columns: 1fr;
 		gap: 32px;
 		padding-bottom: var(--margin-bottom-mobile);
@@ -205,6 +203,10 @@
 
 	.economy-wrapper {
 		padding: 64px 24px;
+		margin: 0 auto 64px;
+	}
+
+	.review-wrapper {
 		margin: 0 auto 64px;
 	}
 
@@ -226,6 +228,12 @@
 	.support-wrapper {
 		margin-bottom: var(--margin-bottom-mobile);
 		}
+
+	.review-wrapper {
+		flex-direction: column-reverse;
+		gap: var(--margin-bottom-mobile);
+		max-height: 100%;
+	}
 }
 
 
