@@ -17,7 +17,6 @@
 	--color-line-active: rgba(255, 255, 255, 0.16);
 	--color-footer: #1A1D25;
 	
-
 	--gradient: linear-gradient(173deg, #357EFE 50% 65%, #FFFFFF 50%);
 
 	--border-47: 47px;
@@ -43,7 +42,6 @@ html {
 
 body {
 	font-family: 'Inter', sans-serif;
-
 }
 
 a, a:visited, a:hover, a:active {
@@ -57,14 +55,4 @@ p {
 
 h1, h2, h3 {
 	margin: 0;
-}
-
-
-h3 {
-	color: var(--color-header);
-	font-size: 32px;
-	font-weight: 800;
-	line-height: 120%;
-	margin: 0 0 16px 0;
-
 }

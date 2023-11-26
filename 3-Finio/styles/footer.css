@@ -30,8 +30,6 @@
 	gap: 16px;
 }
 
-
-
 .footer__about_text {
 	color: var(--color-text-footer);
 	font-size: 17px;
@@ -44,7 +42,7 @@
 	font-size: 17px;
 	font-weight: 500;
 	line-height: 140%;
-	}
+}
 
 .footer__payment {
 	display: flex;
@@ -66,7 +64,7 @@
 		flex-direction: column-reverse;
 		gap: 24px;
 		align-items: flex-start;
-		}
+	}
 
 }
 
