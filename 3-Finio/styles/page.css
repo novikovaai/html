@@ -78,6 +78,7 @@
 
 .button-wrapper {
 	align-self: self-end;
+	text-align: center;
 }
 
 .tarifs-wrapper {
@@ -180,6 +181,7 @@
 		flex-direction: column-reverse;
 		gap: 32px;
 		align-items: center;
+		border-radius: 0;
 	}
 }
 
@@ -207,6 +209,11 @@
 		margin-top: -620px;
 	}
 
+	.capability-wrapper img {
+		width: 48px;
+		height: 48px;
+	}
+
 	.benefit-wrapper {
 		grid-template-columns: 1fr;
 		gap: 32px;
@@ -224,4 +231,6 @@
 		gap: var(--margin-bottom-mobile);
 		max-height: 100%;
 	}
+
+	
 }
